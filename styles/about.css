@@ -60,7 +60,6 @@ main {
   width: 200px;
   border-radius: 15px;
   margin-left: 10px;
-  margin-bottom: 1.3rem;
   box-shadow: 0 0 12px -2px black;
 }
 
@@ -76,6 +75,8 @@ main {
   display: flex;
   border-top: 1px solid white;
   padding-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  flex: 2;
 }
 
 .activitySection h2 {

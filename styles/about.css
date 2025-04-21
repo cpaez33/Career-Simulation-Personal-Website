@@ -59,3 +59,16 @@ main {
   height: 300px;
   width: 300px;
 }
+
+.bodyTitle {
+  color: white;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.activitySection {
+  display: flex;
+  border-top: 1px solid white;
+  padding-top: 1rem;
+}

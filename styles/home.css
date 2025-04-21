@@ -4,15 +4,20 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #4444bb;
+}
+
 .topContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
-  background-color: #333333;
-  /* left: 0;
+  background-color: #721313;
+  box-shadow: 0 0 12px -2px black;
+  left: 0;
   right: 0;
-  position: fixed; */
+  position: fixed;
 }
 
 .topContainer h1 {
@@ -40,7 +45,9 @@
   max-width: 960px;
   margin: 0 auto;
   min-height: 100vh;
-  background-color: #4444bb;
+  background-color: #353592;
+  box-shadow: 0 0 12px -2px black;
+  padding-bottom: 3em;
 }
 
 .contentContainer main img {
@@ -51,6 +58,7 @@
 main {
   display: flex;
   padding: 1.5rem;
+  padding-top: 7em;
   gap: 1rem;
 }
 

@@ -24,6 +24,7 @@ html {
   color: white;
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
 }
 
 .navContainer {
@@ -73,6 +74,7 @@ main {
 
 .activitySection {
   display: flex;
+  justify-content: space-between;
   border-top: 1px solid white;
   padding-top: 1.3rem;
   margin-bottom: 1.3rem;
@@ -88,4 +90,9 @@ main {
   color: white;
   margin: 1rem 0;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.activityInfo {
+  max-width: 70%;
 }

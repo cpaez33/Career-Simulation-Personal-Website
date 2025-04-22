@@ -147,3 +147,17 @@ footer {
 footer img {
   height: 50px;
 }
+
+@media (max-width: 625px) {
+  .nameContainer,
+  .personalContactBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .nameContainer div,
+  .personalContactBox div {
+    width: 100%;
+  }
+}

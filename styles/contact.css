@@ -134,6 +134,13 @@ button:hover {
 .active {
   border-bottom: 1px solid #c0c0c0;
 }
+
+.hamburger-icon {
+  display: none;
+  width: 2rem;
+  height: auto;
+  cursor: pointer;
+}
 footer {
   text-align: center;
   color: white;
@@ -161,5 +168,14 @@ footer img {
   .nameContainer div,
   .personalContactBox div {
     width: 100%;
+  }
+  .navContainer {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+    top: 0.5rem;
+    right: 1rem;
+    color: white;
   }
 }

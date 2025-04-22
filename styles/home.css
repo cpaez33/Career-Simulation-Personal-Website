@@ -114,7 +114,21 @@ footer {
   position: fixed;
   padding: 0.8rem;
 }
-
+.active {
+  border-bottom: 1px solid #c0c0c0;
+}
 footer img {
   height: 50px;
+}
+
+@media (max-width: 625px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  footer {
+    position: relative;
+  }
 }

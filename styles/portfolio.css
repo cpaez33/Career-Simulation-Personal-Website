@@ -103,6 +103,10 @@ p {
   line-height: 1.5;
 }
 
+.active {
+  border-bottom: 1px solid #c0c0c0;
+}
+
 footer {
   text-align: center;
   color: white;
@@ -117,4 +121,22 @@ footer {
 
 footer img {
   height: 50px;
+}
+
+@media (max-width: 625px) {
+  .projectSection {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .projectSubSection {
+    max-width: none;
+  }
+  .projectTitles {
+    text-align: center;
+  }
+  img {
+    order: 1;
+  }
 }

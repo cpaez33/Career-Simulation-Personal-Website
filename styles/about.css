@@ -108,7 +108,27 @@ footer {
   position: fixed;
   padding: 0.8rem;
 }
-
+.active {
+  border-bottom: 1px solid #c0c0c0;
+}
 footer img {
   height: 50px;
+}
+
+@media (max-width: 625px) {
+  .activitySection {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+  .activityInfo {
+    max-width: 100%;
+  }
+  .activityInfo h2 {
+    text-align: center;
+  }
+  footer {
+    position: relative;
+  }
 }

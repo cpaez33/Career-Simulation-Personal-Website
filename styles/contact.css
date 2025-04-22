@@ -131,7 +131,9 @@ button:hover {
   color: #888;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.active {
+  border-bottom: 1px solid #c0c0c0;
+}
 footer {
   text-align: center;
   color: white;

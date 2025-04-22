@@ -45,7 +45,7 @@ html {
 .contentContainer {
   max-width: 960px;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: #353592;
   box-shadow: 0 0 12px -2px black;
   padding-bottom: 3em;
@@ -85,12 +85,14 @@ main {
   margin-bottom: 1rem;
   text-align: center;
   font-size: xx-large;
+  font-weight: 550;
 }
 
 .projectTitles {
   margin-bottom: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
+  font-weight: 600;
   border-bottom: 1px solid white;
   padding-bottom: 0.3rem;
 }
@@ -106,10 +108,10 @@ footer {
   color: white;
   background-color: #721313;
   box-shadow: 0 0 12px -2px black;
-  left: 0;
+  /* left: 0;
   right: 0;
   bottom: 0;
-  position: fixed;
+  position: fixed; */
   padding: 0.8rem;
 }
 

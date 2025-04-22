@@ -39,19 +39,29 @@
             />
           </div>
         </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Please enter email..." />
-          <label for="phone-number">Phone Number</label>
-          <input
-            type="number"
-            id="phone-number"
-            placeholder="Please enter phone number..."
-          />
+        <div class="personalContactBox">
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Please enter email..."
+            />
+          </div>
+          <div>
+            <label for="phone-number">Phone Number</label>
+            <input
+              type="tel"
+              id="phone-number"
+              placeholder="Please enter phone number..."
+            />
+          </div>
         </div>
-        <div>
+        <div class="messageContainer">
           <label for="message">What do you have in mind</label>
-          <input type="text" id="message" placeholder="Please enter query" />
+          <textarea id="message" name="message" rows="7" cols="40">
+Please enter query...</textarea
+          >
         </div>
         <button>Submit</button>
       </form>
